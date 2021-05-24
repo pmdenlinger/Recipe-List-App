@@ -25,7 +25,7 @@ struct RecipeDetailView: View {
             VStack(alignment: .leading) {
                 Text("Ingredients")
                     .font(.headline)
-                    .padding(.bottom, 5)
+                    .padding([.bottom, .top], 5)
                 
                 // MARK: Divider
                 Divider()
@@ -35,6 +35,7 @@ struct RecipeDetailView: View {
                     Text("- " + item)
                 }
             }
+            .padding(.horizontal, 10.0)
             
             // MARK: Directions
             VStack(alignment: .leading) {
@@ -48,6 +49,7 @@ struct RecipeDetailView: View {
                         .padding(.bottom, 5)
                 }
             }
+            .padding(.horizontal, 10.0)
         }
         
         
