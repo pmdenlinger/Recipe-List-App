@@ -52,10 +52,11 @@ struct RecipeDetailView: View {
             .padding(.horizontal, 10.0)
         }
         
-        
-        
     }
+    .navigationBarTitle(recipe.name)
+    
 }
+    
 
 struct RecipeDetailView_Previews: PreviewProvider {
     static var previews: some View {
