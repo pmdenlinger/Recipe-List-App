@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RecipeListView.swift
 //  Recipe List App
 //
 //  Created by user on 5/24/21.
