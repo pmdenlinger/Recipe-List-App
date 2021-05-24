@@ -12,6 +12,7 @@
 		CEA0BF69265BEE4F00962C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA0BF68265BEE4F00962C57 /* Assets.xcassets */; };
 		CEA0BF6C265BEE4F00962C57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA0BF6B265BEE4F00962C57 /* Preview Assets.xcassets */; };
 		CEA0BF79265BF37600962C57 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = CEA0BF78265BF37600962C57 /* recipes.json */; };
+		CEA0BF7B265BF51A00962C57 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0BF7A265BF51A00962C57 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CEA0BF6B265BEE4F00962C57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEA0BF6D265BEE4F00962C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA0BF78265BF37600962C57 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		CEA0BF7A265BF51A00962C57 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		CEA0BF75265BEF0400962C57 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CEA0BF7A265BF51A00962C57 /* Recipe.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA0BF7B265BF51A00962C57 /* Recipe.swift in Sources */,
 				CEA0BF67265BEE4500962C57 /* ContentView.swift in Sources */,
 				CEA0BF65265BEE4500962C57 /* Recipe_List_App.swift in Sources */,
 			);
