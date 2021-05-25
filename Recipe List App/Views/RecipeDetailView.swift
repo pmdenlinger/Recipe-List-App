@@ -30,9 +30,9 @@ struct RecipeDetailView: View {
                 // MARK: Divider
                 Divider()
                 
-                ForEach (recipe.ingredients, id: \.self) {
+                ForEach (recipe.ingredients) {
                     item in
-                    Text("- " + item)
+                    Text("- " + item.name)
                 }
             }
             .padding(.horizontal, 10.0)
