@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0EE532265EE8B2005F9B3A /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EE531265EE8B2005F9B3A /* Rational.swift */; };
 		CE459E23265D2FA700C23658 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE459E22265D2FA600C23658 /* RecipeTabView.swift */; };
 		CE459E25265D50E200C23658 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE459E24265D50E200C23658 /* RecipeFeaturedView.swift */; };
 		CEA0BF65265BEE4500962C57 /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0BF64265BEE4500962C57 /* Recipe_List_App.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0EE531265EE8B2005F9B3A /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		CE459E22265D2FA600C23658 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		CE459E24265D50E200C23658 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		CEA0BF61265BEE4500962C57 /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0EE530265EE799005F9B3A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EE531265EE8B2005F9B3A /* Rational.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		CEA0BF58265BEE4400962C57 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 				CEA0BF75265BEF0400962C57 /* Models */,
 				CEA0BF77265BEF1900962C57 /* Services */,
 				CEA0BF76265BEF0D00962C57 /* Data */,
+				CE0EE530265EE799005F9B3A /* Utilities */,
 				CEA0BF68265BEE4F00962C57 /* Assets.xcassets */,
 				CEA0BF6D265BEE4F00962C57 /* Info.plist */,
 				CEA0BF6A265BEE4F00962C57 /* Preview Content */,
@@ -202,6 +213,7 @@
 			files = (
 				CEA0BF7B265BF51A00962C57 /* Recipe.swift in Sources */,
 				CEA0BF81265C40BE00962C57 /* RecipeDetailView.swift in Sources */,
+				CE0EE532265EE8B2005F9B3A /* Rational.swift in Sources */,
 				CEA0BF7D265BF7CA00962C57 /* RecipeModel.swift in Sources */,
 				CEA0BF67265BEE4500962C57 /* RecipeListView.swift in Sources */,
 				CEA0BF65265BEE4500962C57 /* Recipe_List_App.swift in Sources */,
